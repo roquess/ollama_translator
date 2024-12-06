@@ -1,0 +1,19 @@
+[package]
+name = "ollama_translator"
+version = "0.1.0"
+edition = "2021"
+license-file="LICENSE"
+repository="https://github.com/roquess/ollama_translator"
+description="Ollama Translator for natural language."
+
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+
+[lib]
+name = "ollama_translator"
+path = "src/lib.rs"
+
