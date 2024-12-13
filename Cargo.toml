@@ -1,8 +1,8 @@
 [package]
 name = "ollama_translator"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
-license-file="LICENSE"
+license="MIT"
 repository="https://github.com/roquess/ollama_translator"
 description="Ollama Translator for natural language."
 
